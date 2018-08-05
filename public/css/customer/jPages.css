@@ -1,0 +1,27 @@
+
+#pagination {
+	text-align: center;
+}
+#pagination a {
+	height: 35px;
+	padding: 5px;
+	min-width: 35px;
+	transition: 0.3s;
+	color: #212324;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px solid;
+	margin: 0 2px;
+}
+#pagination a:hover {
+	background: #000;
+	color: #fff;
+}
+#pagination a.jp-current {
+	background: #000;
+	color: #fff;
+}

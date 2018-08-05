@@ -1,0 +1,12 @@
+td:last-child {
+    text-align: left !important;
+}
+
+table {
+    counter-reset: section;
+}
+
+.count:before {
+    counter-increment: section;
+    content: counter(section);
+}

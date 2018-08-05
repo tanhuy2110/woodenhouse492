@@ -1,0 +1,107 @@
+#ui-datepicker-div {
+    z-index: 99999 !important;
+    margin-top: 6px;
+}
+.ui-datepicker {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #d0963e;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 400;
+    left: 18px;
+    padding: 4px;
+    position: absolute;
+    top: 18px;
+    z-index: 99;
+    /*margin-top: -35px;*/
+}
+.ui-datepicker-header {
+    text-align: center;
+    position: relative;
+    margin: 4px 0;
+}
+.ui-datepicker-prev {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -4px;
+    margin: 0;
+    width: 10px;
+    height: 10px;
+    padding: 4px;
+    cursor: pointer;
+}
+.ui-datepicker-title{
+    margin: 0 3px;
+    cursor: pointer;
+}
+.ui-datepicker-next {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    margin: 0;
+    height: 10px;
+    padding: 4px;
+    cursor: pointer;
+}
+.ui-datepicker-calendar {
+    background-color: #f9f9f9;
+}
+.ui-datepicker-calendar thead {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.ui-datepicker-calendar thead  th{
+    idth: 27px;
+    height: 27px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0 9px;
+    border: 1px solid transparent;
+}
+.ui-datepicker-calendar tbody {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.ui-datepicker-calendar tbody td{
+    idth: 27px;
+    height: 27px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0 4px;
+    border: 1px solid transparent;
+}
+.ui-datepicker-today {
+    color: #000;
+    background: #D6EAFF;
+}
+a.ui-state-active{
+    padding: 4px 9px;
+    background: #d0963e none repeat scroll 0 0;
+    color: #FFF;
+}
+.ui-datepicker-calendar tr td:hover {
+    background: rgba(208, 150, 62, .8);
+    color: #000;
+}
+.ui-datepicker-calendar tr td:hover a{
+    color: #000;
+}
+.ui-state-disabled {
+    color: #ded8d8;
+}
+.ui-state-disabled:hover {
+    background: #FFF !important;
+    color: #ded8d8 !important;
+    cursor: no-drop;
+}
+.ui-datepicker-month {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
