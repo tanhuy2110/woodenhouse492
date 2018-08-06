@@ -36,7 +36,7 @@
                             </div>
                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                 <label for="reservation_person"><i class="fa fa-user-plus"></i></label>
-                                <input type="text" name="reservation_person" id="reservation_person" placeholder="Total Person">
+                                <input type="text" name="reservation_person" id="reservation_person" placeholder="Max 16 people">
                             </div>
                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                 <label for="reservation_phone"><i class="fa fa-phone"></i></label>
@@ -62,7 +62,7 @@
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                     <div class="reservation-call-to-action">
                         <h4>Reserve by Phone</h4>
-                        <p>We take reservations for lunch and dinner. To make a reservation, please call us at <a href="#">(+84)-935-103-369</a> between 10am-8pm (GTM +7), All weekdays except Wednesday</p>
+                        <p>We take reservations for lunch and dinner. To make a reservation, please call us at <a href="#">(+84)-935-103-369</a> between <strong>10:30-20:00</strong>  (GTM +7), all weekdays except Wednesday</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">

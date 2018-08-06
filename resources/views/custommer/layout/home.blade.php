@@ -22,11 +22,13 @@
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                         <div class="about-img-bottom">
                             <div class="about-img about-max">
+
                                 <img class="about-max" src="/images/customer/about/about5.jpg" alt="">
                             </div>
                         </div>
                         <div class="about-img-top">
-                            <div class="about-img about-max">
+                            <div class="about-img about-max" style="position: relative">
+                                <div id="weather"></div>
                                 <img class="about-max" src="/images/customer/about/about2.jpg" alt="">
                             </div>
                         </div>
@@ -97,7 +99,7 @@
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <div class="single-event">
                     <div class="event-img">
-                        <img src="{{asset('/images/customer/event/event_1.jpg')}}" alt="">
+                        <img src="{{asset('/images/customer/event/reviewTrip7.jpg')}}" alt="">
                     </div>
                     <div class="event-content">
                         <div class="event-date">
@@ -113,7 +115,7 @@
                 </div>
                 <div class="single-event">
                     <div class="event-img">
-                        <img src="{{asset('/images/customer/event/event_2.jpg')}}" alt="">
+                        <img src="{{asset('/images/customer/event/reviewTrip9.jpg')}}" alt="">
                     </div>
                     <div class="event-content">
                         <div class="event-date">
@@ -146,11 +148,15 @@
                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/fNOfkNc9AJE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
+        <div class="row">
+            <div id="weather"></div>
+        </div>
     </div>
 </section>
 <!--TEAM AREA END-->
 @endsection
 @section('javascript')
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
     <script>
         $.fn.stars = function() {
             return $(this).each(function() {
@@ -162,5 +168,24 @@
             });
         }
         $('.stars').stars();
+
+        //weather
+        $(document).ready(function() {
+            $.simpleWeather({
+                location: 'Hoi An, VN',
+                woeid: '',
+                unit: 'c',
+                success: function(weather) {
+                    html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>  / <h4>'+weather.alt.temp+' &deg; '+weather.alt.unit+' </h4>';
+                    html += '<ul><li>'+weather.city+'</li>';
+                    html += '<li class="currently">'+weather.currently+'</li>';
+                    html += '<li>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</li>';
+                    html += '</ul>';
+
+                    $("#weather").html(html);
+                },
+            });
+        });
+
     </script>
 @endsection

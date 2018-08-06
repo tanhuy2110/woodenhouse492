@@ -29,15 +29,9 @@ Route::group(['prefix'=>'/admin', 'middleware' => 'adminLogin'],function(){
 });
 
 Route::group(['prefix'=>'/'],function(){
-    Route::get('/', function () {
-        return view('custommer.layout.home');
-    });
+    Route::get('/', 'CustomerController@home');
     Route::get('/menu', 'MenuController@listMenuCustomer');
-    Route::get('/about', function () {
-        return view('custommer.layout.about');
-    });
-    Route::get('/review', function () {
-        return view('custommer.layout.review');
-    });
+    Route::get('/about', 'CustomerController@about');
+    Route::get('/review', 'CustomerController@review');
     Route::resource('/reservation', 'ReservationController');
 });

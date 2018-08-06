@@ -1,10 +1,11 @@
 <div class="footer-area">
+    <div class="footer-area-bg"></div>
     <div class="container wow fadeIn">
         <div class="row">
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <div class="footer-top section-padding text-center">
                     <div class="footer-logo">
-                        <a href="#"><img src="images/customer/footer_white_logo.png" alt=""></a>
+                        <a href="/"><img src="images/customer/footer_white_logo.png" alt=""></a>
                     </div>
                     <div class="footer-address">
                         <p>492 Cua Dai, Hoi An</p>
