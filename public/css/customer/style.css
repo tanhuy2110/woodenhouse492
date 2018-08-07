@@ -2852,3 +2852,4 @@ i {
 #weather h4{
     display: inline-block;
 }
+#ui-datepicker-div {display: none;}

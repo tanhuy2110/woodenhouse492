@@ -173,14 +173,12 @@ jQuery(document).on('ready', function ($) {
     $('#Container').mixItUp({
         callbacks: {
             onMixLoad: function(state,futureState ){
-                console.log('mix Loaded');
                 //setPagination();
             },
             onMixStart: function(state,futureState ){
                 destroyPagination();
             },
             onMixEnd: function(state, futureState){
-                console.log('mix End');
                 setPagination();
             }
         }

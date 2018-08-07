@@ -48,8 +48,8 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a href="index.html" class="navbar-brand"><img src="{{asset('/images/customer/main_logo_black.png')}}" alt="logo"></a>
-                        <a href="index.html" class="navbar-brand white"><img src="{{asset('/images/customer/main_logo.png')}}" alt="logo"></a>
+                        <a href="/" class="navbar-brand"><img src="{{asset('/images/customer/main_logo_black.png')}}" alt="logo"></a>
+                        <a href="/" class="navbar-brand white"><img src="{{asset('/images/customer/main_logo.png')}}" alt="logo"></a>
                     </div>
                     <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
                         <ul id="nav" class="nav navbar-nav cl-effect-11">

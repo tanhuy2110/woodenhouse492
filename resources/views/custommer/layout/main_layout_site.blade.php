@@ -40,7 +40,7 @@
     <!--====== SCRIPTS JS ======-->
     <script src="{{asset('/js/customer/vendor/jquery-1.12.4.min.js')}}"></script>
     <script src="{{asset('/js/customer/vendor/bootstrap.min.js')}}"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+
     <!--====== PLUGINS JS ======-->
     <script src="{{asset('/js/customer/vendor/jquery.easing.1.3.js')}}"></script>
     <script src="{{asset('/js/customer/vendor/jquery-migrate-1.2.1.min.js')}}"></script>
@@ -55,7 +55,6 @@
     <script src="{{asset('/js/customer/waypoints.min.js')}}"></script>
     <script src="{{asset('/js/customer/jquery.counterup.min.js')}}"></script>
     <script src="{{asset('/js/customer/wow.min.js')}}"></script>
-    <script src="{{asset('/js/customer/contact-form.js')}}"></script>
     <script src="{{asset('/js/customer/jquery.sticky.js')}}"></script>
     <script src="{{asset('js/customer/jPages.min.js')}}"></script>
     <!--===== ACTIVE JS=====-->

@@ -77,6 +77,7 @@
 @endsection
 @section('javascript')
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <script src="{{asset('/js/customer/vendor/jquery-ui.js')}}"></script>
     <script>
         $( "#datepicker" ).datepicker({
@@ -84,13 +85,11 @@
             dateFormat: 'dd/mm/yy',
             changeMonth: true,
         });
-
         $.ajaxSetup({
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
-
         $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
             $(".create-submit").click(function(e){
                 e.preventDefault();
@@ -104,7 +103,6 @@
                 var person = $('#addReservation').find("input[name = 'reservation_person']").val();
                 var message = $('#addReservation').find("textarea[name = 'reservation_message']").val();
                 var ipClient = data.geobytesipaddress;
-
                 $.ajax({
                     type: 'POST',
                     url: form_action,
@@ -129,7 +127,6 @@
                         }).then(function () {
                             location.reload();
                         });
-
                     }
                     else {
                         printErrorMsg(result.error);
@@ -145,9 +142,8 @@
                 $(".print-error-msg").find("ul").append('<li>'+value+'</li>');
             });
         }
-        
-        /* Validate disable Button Reservation Submit */
 
+        /* Validate disable Button Reservation Submit */
         function enableReservationButton() {
             $('#submitBtn').removeAttr('disabled');
         }
