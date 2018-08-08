@@ -9,9 +9,9 @@
                         <h2>Our <span>Story</span></h2>
                     </div>
                     <div class="about-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                        <a href="#" class="read-more">Read more</a>
+                        <p>Wooden House Restaurant & Coffee established sine Junly 2015. It's a place where you can have coffee, coocktail, beer,... and great dining in Western and Viet Nam menu with your family and friends for a quiet and romantic evening</p>
                     </div>
+
                 </div>
                 <div class="col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12 hidden-xs">
                     <div class="about-video">
@@ -122,6 +122,4 @@
         </div>
     </section>
     <!--PROMOTIONS AREA END-->
-
-
 @endsection

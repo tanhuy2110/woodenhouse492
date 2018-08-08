@@ -8,7 +8,7 @@
     <meta name="description" content="Responsive Bootstrap 4">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" type="image/ico" href="images/favicon.png" />
+    <link rel="shortcut icon" type="image/ico" href="images/customer/favicon.png" />
     <!-- Custom Css -->
     <link rel="stylesheet" href="{{ asset('/css/customer/normalize.css')}}">
     <link rel="stylesheet" href="{{ asset('/css/customer/animate.css')}}">

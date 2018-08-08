@@ -72,8 +72,10 @@
         <div class="pogoSlider">
             <div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background:url(images/customer/slider/slide3.jpg) no-repeat scroll 0 0 / cover;">
                 <h2 class="pogoSlider-slide-element" data-in="expand" data-out="expand" data-duration="700">Welcome to</h2>
-                <h1 class="pogoSlider-slide-element" data-in="expand" data-out="expand" data-duration="1500"><span>WoodenHouse</span> Cafe & Restaurant</h1>
-                <h3 class="pogoSlider-slide-element" data-in="expand" data-out="expand" data-duration="2300"><a href="/reservation">Reservation Now</a></h3>
+                <h1 class="pogoSlider-slide-element" data-in="expand" data-out="expand" data-duration="1500"><span>Wooden House</span> Cafe & Restaurant</h1>
+                <h3 class="pogoSlider-slide-element" data-in="expand" data-out="expand" data-duration="1500">opening hours</h3>
+                <h4 class="pogoSlider-slide-element" data-in="expand" data-out="expand" data-duration="1500">Thu - Tue: <span style="color: #d0963e">11:00 - 20:00</span> </h4>
+                <h4 class="pogoSlider-slide-element" data-in="expand" data-out="expand" data-duration="1500">Closed every Wednesday</h4>
             </div>
             <div class="pogoSlider-slide" data-transition="fade" style="background:url(images/customer/slider/slide.jpg) no-repeat scroll 0 0 / cover;">
                 <h2 class="pogoSlider-slide-element" data-in="expand" data-out="expand" data-duration="700">Our menus</h2>
