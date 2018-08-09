@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="{{asset('/css/customer/customDatepicker.css')}}"/>
     <link rel="stylesheet" href="{{asset('/css/font-awesome.min.css')}}"/>
 
-
     <!--====== MAIN STYLESHEETS ======-->
     <link href="{{asset('/css/customer/style.css')}}" rel="stylesheet">
     <link href="{{asset('/css/customer/responsive.css')}}" rel="stylesheet">
@@ -47,16 +46,14 @@
     <script src="{{asset('/js/customer/vendor/modernizr-2.8.3.min.js')}}"></script>
     <script src="{{asset('/js/customer/jquery.pogo-slider.js')}}"></script>
     <script src="{{asset('/js/customer/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('/js/customer/jquery.mixitup.min.js')}}"></script>
     <script src="{{asset('/js/customer/spectragram.js')}}"></script>
     <script src="{{asset('/js/customer/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{asset('/js/customer/datepicker.min.js')}}"></script>
     <script src="{{asset('/js/customer/timepicker.min.js')}}"></script>
     <script src="{{asset('/js/customer/waypoints.min.js')}}"></script>
     <script src="{{asset('/js/customer/jquery.counterup.min.js')}}"></script>
     <script src="{{asset('/js/customer/wow.min.js')}}"></script>
     <script src="{{asset('/js/customer/jquery.sticky.js')}}"></script>
-    <script src="{{asset('js/customer/jPages.min.js')}}"></script>
+
     <!--===== ACTIVE JS=====-->
     <script src="{{asset('js/customer/main.js')}}"></script>
     @yield('javascript')

@@ -45,3 +45,45 @@
 </section>
 <!--MENUS AREA END-->
 @endsection
+@section('javascript')
+    <script src="{{asset('/js/customer/jquery.mixitup.min.js')}}"></script>
+    <script src="{{asset('js/customer/jPages.min.js')}}"></script>
+    <script>
+        /*---------------------------
+        MENU LIST MIXITUP FILTERING
+        ----------------------------*/
+        var pagination = $('.pagination');
+        function setPagination(){
+            pagination.jPages({
+                containerID: 'Container',
+                perPage: 6,
+                startPage: 1,
+                startRange: 1,
+                midRange: 3,
+                endRange: 1,
+                first: false,
+                last: false
+            });
+        }
+
+        function destroyPagination() {
+            pagination.jPages('destroy');
+        };
+
+        setPagination();
+
+        $('#Container').mixItUp({
+            callbacks: {
+                onMixLoad: function(state,futureState ){
+                    //setPagination();
+                },
+                onMixStart: function(state,futureState ){
+                    destroyPagination();
+                },
+                onMixEnd: function(state, futureState){
+                    setPagination();
+                }
+            }
+        });
+    </script>
+@endsection
