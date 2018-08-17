@@ -83,10 +83,6 @@ jQuery(document).on('ready', function ($) {
         //     var hourGet = $('#reservation_time').val(c.clockpicker.hours);
         //     console.log(c.clockpicker.hours);
         // }
-        beforeShow: function () {
-            var arrHour = [ 10,11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-            console.log(arrHour);
-        }
     });
 
 

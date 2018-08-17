@@ -26,22 +26,59 @@
                                 <label for="reservation_email"><i class="fa fa-envelope-o"></i></label>
                                 <input type="email" name="reservation_email" id="reservation_email" placeholder="Your Email">
                             </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                <label for="reservation_date"><i class="fa fa-calendar"></i></label>
-                                <input type="text" id="datepicker" name="reservation_date" placeholder="Expected Day" readonly>
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                <label for="reservation_time"><i class="fa fa-clock-o"></i></label>
-                                <input type="text" name="reservation_time" id="reservation_time" placeholder="Expected Time">
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                <label for="reservation_person"><i class="fa fa-user-plus"></i></label>
-                                <input type="text" name="reservation_person" id="reservation_person" placeholder="Max 16 people">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                        <label for="reservation_date"><i class="fa fa-calendar"></i></label>
+                                        <input type="text" id="datepicker" name="reservation_date" placeholder="Expected Day" readonly>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                        <select class="select-option" id="select-time">
+                                            <option value="hide">-- Please Choose Hour --</option>
+                                            <option value="11:00">11 : 00</option>
+                                            <option value="11:30">11 : 30</option>
+                                            <option value="12:00">12 : 00</option>
+                                            <option value="12:30">12 : 30</option>
+                                            <option value="13:00">13 : 00</option>
+                                            <option value="13:30">13 : 30</option>
+                                            <option value="14:00">14 : 00</option>
+                                            <option value="14:30">14 : 30</option>
+                                            <option value="15:00">15 : 00</option>
+                                            <option value="15:30">15 : 30</option>
+                                            <option value="16:00">16 : 00</option>
+                                            <option value="16:30">16 : 30</option>
+                                            <option value="17:00">17 : 00</option>
+                                            <option value="17:30">17 : 30</option>
+                                            <option value="18:00">18 : 00</option>
+                                            <option value="18:30">18 : 30</option>
+                                            <option value="19:00">19 : 00</option>
+                                            <option value="19:30">19 : 30</option>
+                                            <option value="20:00">20 : 00</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                 <label for="reservation_phone"><i class="fa fa-phone"></i></label>
-                                <input type="text" name="reservation_phone" id="reservation_phone" placeholder="Phone No">
+                                <input type="text" name="reservation_phone" id="reservation_phone" placeholder="Phone Number">
                             </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <select class="select-option" id="select-size">
+                                    <option value="hide">-- Please Choose Size --</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
+
                             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                 <label for="reservation_message"><i class="fa fa-comment-o"></i></label>
                                 <textarea name="reservation_message" id="reservation_message" cols="30" rows="10" placeholder="You can choose few food in advance to serve us better. Thank you !"></textarea>
@@ -98,9 +135,10 @@
                 var email = $('#addReservation').find("input[name = 'reservation_email']").val();
                 var dateDeafult = $('#addReservation').find("input[name = 'reservation_date']").val() ;
                 var date = dateDeafult.replace(/\//g , "-");
-                var dateInsert = date.split("-").reverse().join("-") + ' ' + $('#addReservation').find("input[name = 'reservation_time']").val();
+                var time = $('#select-time option:selected').val();
+                var dateInsert = date.split("-").reverse().join("-") + ' ' + time ;
                 var phone = $('#addReservation').find("input[name = 'reservation_phone']").val();
-                var person = $('#addReservation').find("input[name = 'reservation_person']").val();
+                var person = $('#select-size option:selected').val();
                 var message = $('#addReservation').find("textarea[name = 'reservation_message']").val();
                 var ipClient = data.geobytesipaddress;
                 $.ajax({
