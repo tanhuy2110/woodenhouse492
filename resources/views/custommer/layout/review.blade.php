@@ -1,4 +1,5 @@
 @extends ('custommer.layout.main_layout_site')
+@section ('title', 'Review - Wooden House Restaurant')
 @section('content')
     <section class="events-page event-area section-padding">
         <div class="container wow fadeIn">

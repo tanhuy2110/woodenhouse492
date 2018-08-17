@@ -1,4 +1,5 @@
 @extends ('custommer.layout.main_layout_site')
+@section ('title', 'About - Wooden House Restaurant')
 @section('content')
     <!--ABOUT AREA-->
     <section class="about-area section-padding">

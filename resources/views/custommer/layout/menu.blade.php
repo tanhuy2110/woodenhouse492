@@ -1,4 +1,5 @@
 @extends ('custommer.layout.main_layout_site')
+@section ('title', 'Menu - Wooden House Restaurant')
 @section('content')
 
 <!--MENUS AREA-->
