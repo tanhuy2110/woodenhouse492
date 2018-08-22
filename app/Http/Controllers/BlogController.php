@@ -24,7 +24,7 @@ class BlogController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**

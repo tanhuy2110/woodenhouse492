@@ -27,92 +27,17 @@
                 </div>
             </div>
             <div class="row clearfix">
-                <div class="col-lg-6 col-md-12">
-                    <div class="card single_post">
-                        <div class="body">
-                            <h3 class="m-t-0 m-b-5"><a href="blog-details.html">WTCR from 2018: new rules, more cars, more races</a></h3>
-                            <ul class="meta">
-                                <li><a href="javascript:void(0);"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
-                                <li><a href="javascript:void(0);"><i class="zmdi zmdi-label col-lime"></i>Sports</a></li>
-                                <li><a href="javascript:void(0);"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2><strong>Menu</strong> Table </h2>
+                            <ul class="header-dropdown">
+                                <li><a href="javascript:void(0);" data-toggle="modal" data-target="#addBlog"><i class="zmdi zmdi-plus-circle"></i></a></li>
                             </ul>
-                            <div class="img-post m-b-15 m-t-10">
-                                <img src="{{asset('admin/images/blog/blog-page-3.jpg') }}" alt="Awesome Image">
-                                <div class="social_share">
-                                    <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-facebook"></i></button>
-                                    <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-twitter"></i></button>
-                                    <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-instagram"></i></button>
-                                </div>
-                            </div>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                            <a href="blog-details.html" title="read more" class="btn btn-round btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="card single_post">
-                        <div class="body">
-                            <h3 class="m-t-0 m-b-5"><a href="blog-details.html">CSS Timeline Examples from CodePen</a></h3>
-                            <ul class="meta">
-                                <li><a href="javascript:void(0);"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
-                                <li><a href="javascript:void(0);"><i class="zmdi zmdi-label col-green"></i>Web Design</a></li>
-                                <li><a href="javascript:void(0);"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
-                            </ul>
-                            <div class="img-post m-b-15 m-t-10">
-                                <img src="{{asset('admin/images/blog/blog-page-4.jpg') }}" alt="Awesome Image">
-                                <div class="social_share">
-                                    <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-facebook"></i></button>
-                                    <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-twitter"></i></button>
-                                    <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-instagram"></i></button>
-                                </div>
-                            </div>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-                            <a href="blog-details.html" title="read more" class="btn btn-round btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="card single_post">
-                        <div class="body">
-                            <h3 class="m-t-0 m-b-5"><a href="blog-details.html">All photographs are accurate. None of them is the truth</a></h3>
-                            <ul class="meta">
-                                <li><a href="javascript:void(0);"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
-                                <li><a href="javascript:void(0);"><i class="zmdi zmdi-label col-red"></i>Photography</a></li>
-                                <li><a href="javascript:void(0);"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
-                            </ul>
-                            <div class="img-post m-b-15 m-t-10">
-                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="carousel-item active">
-                                            <img class="d-block img-fluid" src="{{asset('admin/images/blog/blog-page-1.jpg' ) }}" alt="First slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="{{asset('admin/images/blog/blog-page-2.jpg') }}" alt="Second slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="{{asset('admin/images/blog/blog-page-3.jpg') }}" alt="Third slide">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                                <div class="social_share">
-                                    <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-facebook"></i></button>
-                                    <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-twitter"></i></button>
-                                    <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-instagram"></i></button>
-                                </div>
-                            </div>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
-                            <a href="blog-details.html" title="read more" class="btn btn-round btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="col-lg-6 col-md-12">
                     <div class="card single_post">
                         <div class="body">
@@ -131,13 +56,62 @@
                                 </div>
                             </div>
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
-                            <a href="blog-details.html" title="read more" class="btn btn-round btn-info">Read More</a>
+                            <a href="#" title="read more" class="btn btn-round btn-info">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Add Item Blog Modal -->
+    <div class="modal fade" id="addBlog" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <form action="{{ route('blog.store') }}" method="POST" id="upload_form" enctype="multipart/form-data">
+                @csrf
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="title" id="defaultModalLabel">Add New Blog</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="print-error-msg alert alert-danger" style="display:none">
+                            <ul>
+                            </ul>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-line">
+                                <input type="text" name="nameBlog" class="form-control" placeholder="Name Food">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="form-group">
+                            <div class="form-line">
+                                <div class="row clearfix">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <div class="form-line">
+                                                <textarea rows="2" name="decriptionBlog" class="form-control no-resize" placeholder="Decription Blog"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-line">
+                                <div class="fallback">
+                                    <input class="btn bg-green waves-effect" name="imageFood" type="file" id="image_menu" />
+                                </div>
+                            </div>
+                        </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary btn-round create-submit waves-effect">Save</button>
+                        <button type="button" class="btn btn-simple btn-round waves-effect" data-dismiss="modal">CLOSE</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
 @endsection
 @section('javascript')
 

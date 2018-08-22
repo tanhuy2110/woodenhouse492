@@ -106,7 +106,7 @@
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                     <div class="reservation-private-text">
                         <h4>Private Parties & Events</h4>
-                        <p>We are honored to serve you a special day, great in your life such as birthday parties, weddings, conferences or meeting friends. If the size of the party, the event over 15 wheels, please let us know soon.</p>
+                        <p>We are honored to serve you a special day, great in your life such as birthday parties, meeting friends. If the size of the party, the event over 8 wheels, please let us know soon.</p>
                     </div>
                 </div>
             </div>
