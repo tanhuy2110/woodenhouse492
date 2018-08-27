@@ -2872,3 +2872,6 @@ i {
 .padding-15 {
     padding: 15px;
 }
+#reservation_name, #reservation_email {
+    z-index: 999;
+}

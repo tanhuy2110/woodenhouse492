@@ -61,7 +61,7 @@
                             </div>
                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                 <label for="reservation_phone"><i class="fa fa-phone"></i></label>
-                                <input type="text" name="reservation_phone" id="reservation_phone" placeholder="Phone Number">
+                                <input type="number" name="reservation_phone" id="reservation_phone" placeholder="Phone Number">
                             </div>
                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                 <select class="select-option" id="select-size">
